@@ -23,7 +23,6 @@ function countEmojis(str) {
   return counts;
 }
 
-// Example usage:
 const str = "Hello, I ❤️ JavaScript! 🚀🚀🚀 😊😊😊😊🙂";
 countEmojis(str);
-console.log(countEmojis(str)); // { "❤️": 1, "🚀": 3 }
+console.log(countEmojis(str));
